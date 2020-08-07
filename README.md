@@ -20,8 +20,9 @@
 
 ``` lua
 campushoy
-	├── bean -- 最后提交的表单模型
-	├── common -- 工具类和一些地址常量等
-	├── dao -- 用于发送邮件数据和http请求数据的文件
-	├── service -- 逻辑业务层
-	└── Application -- 启动入口
+	├──── bean -- 最后提交的表单模型
+	├──── common -- 工具类和一些地址常量等
+	├──── dao -- 用于发送邮件数据和http请求数据的文件
+	├────service -- 逻辑业务层
+	└─ Application -- 启动入口
+```
