@@ -12,7 +12,7 @@
 - 发送提交信息的邮件
 
 ### 所需环境
-- 一台服务器（[阿里云服务器学生几块钱一个月](https://www.aliyun.com/minisite/goods?userCode=ems3fhvr) "阿里云服务器学生几块钱一个月"，当然你也可以用自己电脑，不过电脑需要一直开机）
+- 一台服务器（[阿里云服务器学生几块钱一个月](https://www.aliyun.com/minisite/goods?userCode=ems3fhvr)，当然你也可以用自己电脑，不过电脑需要一直开机）
 - JDK1.8
 - IDEA
 
