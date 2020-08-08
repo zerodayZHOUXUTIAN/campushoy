@@ -45,14 +45,17 @@ campushoy
 ![4pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/4picture.png)
 
 4. 将campushoy-1.0.jar上传到有java环境的服务器
-![5pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/5picture.png)
 启动项目（这个命令表示后台启动项目，关闭窗口也不会中断）
 ```shell
 [root@iZ2p15w3d5xbru9mj3sZ ~]# nohup java -jar campushoy-1.0.jar >temp.out &
 ```
-已经启动成功
-![6pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/6picture.png)
 查看日志
-![7pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/7picture.png)
+```shell
+[root@iZ2p15w3d5xbru9mj3sZ ~]# more temp.out 
+--------------------------------------
+----------------start-----------------
+--------------------------------------
+```
+启动成功！
 
 
