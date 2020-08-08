@@ -26,3 +26,8 @@ campushoy
 	├──── service -- 业务逻辑层
 	└─ Application -- 启动入口
 ```
+
+
+### 项目流程图
+
+![liuchengtu](https://img-blog.csdnimg.cn/20200808222225725.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1pFUk9EQVlfR0k=,size_16,color_FFFFFF,t_70)
