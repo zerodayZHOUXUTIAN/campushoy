@@ -30,4 +30,29 @@ campushoy
 
 ### 项目流程图
 
-![liuchengtu](https://img-blog.csdnimg.cn/20200808222225725.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1pFUk9EQVlfR0k=,size_16,color_FFFFFF,t_70)
+![liuchengtu](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/liuchengtu.png)
+
+### 使用方式
+1. 从github导入项目到IDEA
+![1pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/1picture.png)
+
+2. 找到UserConstant文件修改自己的CPDAILY_EXTENSION和Cookie的值(这个需要用户通过抓包获得)。
+![2pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/2picture.png)
+还需要修改用户邮箱的信息
+![3pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/3picture.png)
+
+3. 用maven打包  项目出现target文件夹，删除campushoy-1.0.jar，找到campushoy-1.0-jar-with-dependencies.jar文件改名为campushoy-1.0.jar
+![4pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/4picture.png)
+
+4. 将campushoy-1.0.jar上传到有java环境的服务器
+![5pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/5picture.png)
+启动项目（这个命令表示后台启动项目，关闭窗口也不会中断）
+```shell
+[root@iZ2p15w3d5xbru9mj3sZ ~]# nohup java -jar campushoy-1.0.jar >temp.out &
+```
+已经启动成功
+![6pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/6picture.png)
+查看日志
+![7pic](https://gitee.com/csdn-ZERODAY_GI/Image/raw/048453ec1fcc6e46c7cc4223d3e9a30889429ea7/files/7picture.png)
+
+
