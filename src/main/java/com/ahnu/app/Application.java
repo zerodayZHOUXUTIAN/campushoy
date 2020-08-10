@@ -32,9 +32,9 @@ public class Application {
     private final static long PERIOD_DAY = 24L * 60L * 60L * 1000L;
 
     /**
-     * 心跳包 2小时一跳
+     * 心跳包 1小时一跳
      */
-    final static int HEART_BEAT = 1000 * 60 * 60 * 2;
+    final static int HEART_BEAT = 1000 * 60 * 60 * 1;
 
     /**
      * 程序入口
