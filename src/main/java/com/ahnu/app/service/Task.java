@@ -75,11 +75,11 @@ public class Task {
                 }
                 submitForm.setForm(form);
                 if (submit(submitForm)) {
-                    SendDao.send(EmailConstant.SUCCESS, "提交成功");
+                    SendDao.send("提交成功", EmailConstant.SUCCESS);
 
                     return;
                 } else {
-                    SendDao.send(EmailConstant.FAIL, "提交失败:" + JSON.toJSONString(submitForm));
+                    SendDao.send("提交失败:" + JSON.toJSONString(submitForm), EmailConstant.FAIL);
                     return;
                 }
 
@@ -177,7 +177,7 @@ public class Task {
     public boolean submit(SubmitForm submitForm) {
         JSONObject request = RequestDao.request(UserConstant.DOMAIN + ApiConstant.SUBMITFORM, JSONObject.toJSONString(submitForm, SerializerFeature.WriteMapNullValue));
         String message = request.getString("message");
-        if (message == null || SUCCESS.equals(message)) {
+        if (message == null || !SUCCESS.equals(message)) {
             return false;
         } else {
             return true;
