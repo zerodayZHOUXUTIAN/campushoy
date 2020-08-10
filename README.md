@@ -7,6 +7,8 @@
 
 每天早上七点起床提交今日校园真的好麻烦，参考了一些项目写出了这个脚本，欢迎大家提需求，互相交流学习。
 
+**实现技术细节：[https://blog.csdn.net/ZERODAY_GI/article/details/107861326](https://blog.csdn.net/ZERODAY_GI/article/details/107861326)**
+
 ### 项目介绍
 - 每日提交表单（表单内容需要自己修改代码配置，安师大的同学可能不用配置）
 - 发送提交信息的邮件
