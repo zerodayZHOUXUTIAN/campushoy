@@ -9,6 +9,10 @@
 
 **实现技术细节：[https://blog.csdn.net/ZERODAY_GI/article/details/107861326](https://blog.csdn.net/ZERODAY_GI/article/details/107861326)**
 
+**安师大今日校园今日校园提交网页版：[http://www.yoysh.cn](http://www.yoysh.cn)**
+> 使用方式: 账号为学号，密码默认为身份证后六位
+
+
 ### 项目介绍
 - 每日提交表单（表单内容需要自己修改代码配置，安师大的同学可能不用配置）
 - 发送提交信息的邮件
