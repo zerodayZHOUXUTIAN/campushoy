@@ -7,7 +7,7 @@
 
 每天早上七点起床提交今日校园真的好麻烦，参考了一些项目写出了这个脚本，欢迎大家提需求，互相交流学习。
 
-**实现技术细节：[https://blog.csdn.net/ZERODAY_GI/article/details/107861326](https://blog.csdn.net/ZERODAY_GI/article/details/107861326)**
+**实现技术细节：[https://segmentfault.com/a/1190000040054529](https://segmentfault.com/a/1190000040054529)**
 
 **安师大今日校园今日校园提交网页版：[http://www.yoysh.cn](http://www.yoysh.cn)**
 > 使用方式: 账号为学号，密码默认为身份证后六位
